@@ -4,8 +4,9 @@ import { Inject } from '../ioc';
 import P5Service from '../services/p5.service';
 
 class Sketch {
-  @Inject() p5Service: P5Service;
-  sketchBoard: HTMLDivElement;
+  @Inject() private p5Service: P5Service;
+
+  private sketchBoard: HTMLDivElement;
 
   constructor() {
     this.sketchBoard = document.querySelector('#sketch') as HTMLDivElement;
