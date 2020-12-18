@@ -1,6 +1,12 @@
 # template-p5
 
-该模板为 p5 项目提供更好的模块化与解耦，模板自带一个供参考的下雨动画 Demo。
+该模板希望使用 TypeScript 以及 DI 的思想，为 p5 项目提供更好的模块化与解耦。模板自带一个供参考的下雨动画 Demo。
+
+项目环境：`Node.js v14 及以上`。
+
+- 下载依赖：`npm install`
+- 调试项目：`npm run start`
+- 构建项目：`npm run build`
 
 ## 钩子函数
 
