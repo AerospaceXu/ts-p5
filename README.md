@@ -4,7 +4,9 @@ ts-p5 为了提供给 p5 提供更好的代码提示，与更符合初学者直�
 
 ## 如何写？
 
-安装 `npm i ts-p5`。
+安装 Node.js（最好使用 v14 以上版本），保证 `node -v` 与 `npm -v` 都可以输出版本号。
+
+进入项目目录，输入 `npm i ts-p5` 安装依赖。
 
 ```js
 import { sketchCreator } from 'ts-p5';
