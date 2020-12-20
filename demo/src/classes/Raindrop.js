@@ -1,21 +1,21 @@
-import { map, getWindowSize } from '../utils/index';
+import { map, getWindowSize } from '../../../ts-p5/utils/index';
 
 const Z_MAX = 20;
 
 class Raindrop {
-  private x: number = 0;
+  x = 0;
 
-  private y: number = 0;
+  y = 0;
 
-  private z: number = 0;
+  z = 0;
 
-  private len: number = 0;
+  len = 0;
 
-  private thick: number = 0;
+  thick = 0;
 
-  private opacity: number = 0;
+  opacity = 0;
 
-  private ySpeed: number = 0;
+  ySpeed = 0;
 
   get raindropAttr() {
     const { x, y, len, thick, opacity } = this;
@@ -33,7 +33,7 @@ class Raindrop {
     this.y = -450 * Math.random() - 50;
   }
 
-  public replace() {
+  replace() {
     const { width } = getWindowSize();
     this.z = Math.random() * Z_MAX;
     this.x = Math.random() * width;
@@ -44,7 +44,7 @@ class Raindrop {
     this.y = Math.random() * -10;
   }
 
-  public dropFall() {
+  dropFall() {
     const { height } = getWindowSize();
     this.y += this.ySpeed;
     const gravy = map(this.z, 0, Z_MAX, 0, 0.18);

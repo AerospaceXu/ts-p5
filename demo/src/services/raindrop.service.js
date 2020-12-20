@@ -1,8 +1,6 @@
-import { Injectable } from '../ioc';
+import Raindrop from '../classes/Raindrop';
 
-import Raindrop from '../components/Raindrop';
-
-import { map } from '../utils';
+import { map } from '../../../ts-p5/utils';
 
 // m/s
 const PERSON_SPEED_MAX = 3;
@@ -11,11 +9,10 @@ const PERSON_SPEED_MIN = 0;
 const RAINDROP_NUMBER_MAX = 800;
 const RAINDROP_NUMBER_MIN = 200;
 
-@Injectable()
 class RaindropService {
-  private drops: Raindrop[] = [];
+  drops = [];
 
-  private personSpeed: number = 0;
+  personSpeed = 0;
 
   constructor() {
     for (let i = 0; i < this.raindropNumber; i += 1) {
@@ -37,7 +34,7 @@ class RaindropService {
     );
   }
 
-  public update() {
+  update() {
     if (this.personSpeed + 0.1 <= PERSON_SPEED_MAX) {
       this.personSpeed += 0.1;
     }
