@@ -13,6 +13,8 @@ ts-p5 为了提供给 p5 提供更好的代码提示，与更符合初学者直�
 ```js
 import { sketchCreator } from 'ts-p5';
 import { getWindowSize } from 'ts-p5/utils';
+import 'ts-p5/addons/dom';
+import 'ts-p5/addons/sound';
 
 sketchCreator(
   {
