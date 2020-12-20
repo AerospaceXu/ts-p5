@@ -67,6 +67,6 @@
     "skipLibCheck": true /* Skip type checking of declaration files. */,
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
   },
-  "include": ["ts-p5", "utils"],
+  "include": ["ts-p5", "utils", "addons"],
   "exclude": ["node_modules", "demo"]
 }
