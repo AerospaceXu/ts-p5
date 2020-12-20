@@ -1,4 +1,4 @@
-import '../../ts-p5/initialize.css';
+import '../../styles/initialize.css';
 import App from './App.js';
 import './styles/index.css';
 

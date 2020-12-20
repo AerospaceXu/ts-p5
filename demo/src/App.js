@@ -1,7 +1,7 @@
-import { sketchCreator } from '../../ts-p5/index';
+import { sketchCreator } from '../../lib';
 import RaindropService from './services/raindrop.service';
 
-import { getWindowSize } from '../../ts-p5/utils';
+import { getWindowSize } from '../../lib/utils';
 
 const App = () => {
   let raindropService;
