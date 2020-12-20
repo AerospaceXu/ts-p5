@@ -2,7 +2,7 @@
   "name": "template-p5",
   "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "start": "./node_modules/.bin/parcel ./demo/src/index.html --no-cache",
     "build": "./node_modules/.bin/parcel build ./src/index.html --no-cache -d build",
