@@ -1,1 +1,1 @@
-{"version":3,"file":"map.d.ts","sourceRoot":"","sources":["../../ts-p5/utils/map.ts"],"names":[],"mappings":"AAAA,eAAO,MAAM,GAAG,WAAY,MAAM,MAAM,MAAM,MAAM,MAAM,MAAM,MAAM,MAAM,MAAM,WACxB,CAAC"}
+{"version":3,"file":"map.d.ts","sourceRoot":"","sources":["../../utils/map.ts"],"names":[],"mappings":"AAAA,eAAO,MAAM,GAAG,WAAY,MAAM,MAAM,MAAM,MAAM,MAAM,MAAM,MAAM,MAAM,MAAM,WACxB,CAAC"}
