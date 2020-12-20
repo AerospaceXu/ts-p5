@@ -1,12 +1,10 @@
 {
-  "name": "template-p5",
-  "version": "0.0.2",
+  "name": "ts-p5",
+  "version": "0.0.1",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
-    "start": "./node_modules/.bin/parcel ./demo/src/index.html --no-cache",
-    "build": "./node_modules/.bin/parcel build ./src/index.html --no-cache -d build",
-    "lint": "./node_modules/.bin/prettier --write src/**/*.{ts,html}"
+    "start": "./node_modules/.bin/parcel ./demo/src/index.html --no-cache"
   },
   "keywords": [],
   "author": "",
@@ -14,12 +12,10 @@
   "devDependencies": {
     "@types/p5": "^0.9.0",
     "parcel-bundler": "^1.12.4",
-    "prettier": "^2.2.1",
     "typescript": "^4.1.3"
   },
   "dependencies": {
     "p5": "^0.9.0",
-    "reflect-metadata": "^0.1.13",
-    "src": "^1.1.2"
+    "template-p5": "0.0.2"
   }
 }
