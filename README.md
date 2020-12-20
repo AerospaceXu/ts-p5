@@ -8,6 +8,8 @@
 - 调试项目：`npm run start`
 - 构建项目：`npm run build`
 
+对于新手来说，只需要看 `src` 目录，并且不需要看 `src/ioc` 目录。
+
 ## 钩子函数
 
 `preload`, `setup`, `draw`, `mousePressed`……等 p5 提供的钩子函数请写在 `p5.service.ts` 中。
@@ -38,6 +40,10 @@ new P5((p: P5) => {
   p.draw = () => this.p5Service.draw();
 });
 ```
+
+## utils
+
+将常用的 p5 函数实现了一遍放在该文件夹下，方便使用。不需要 `p.xxx()`。
 
 ## Service
 
